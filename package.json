@@ -1,0 +1,41 @@
+{
+  "name": "spine-couch",
+  "version": "1.0.0",
+  "description": "CouchDB adapter for Spine models running in NodeJS",
+  "main": "spine-couch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/iced --bare --map --runtime node -o ./ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doublerebel/spine-couch.git"
+  },
+  "keywords": [
+    "spine",
+    "spinejs",
+    "couch",
+    "couchdb",
+    "model",
+    "adapter",
+    "orm",
+    "couchbase",
+    "cloudant"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doublerebel/spine-couch/issues"
+  },
+  "homepage": "https://github.com/doublerebel/spine-couch#readme",
+  "dependencies": {
+    "cradle": "^0.7.1",
+    "errify": "^1.0.0",
+    "iced-runtime": "^1.0.3",
+    "spine": "^1.6.2",
+    "spine-relations": "^1.0.5"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.11"
+  }
+}

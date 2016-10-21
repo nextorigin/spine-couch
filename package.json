@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/doublerebel/spine-couch.git"
+    "url": "git://github.com/nextorigin/spine-couch.git"
   },
   "keywords": [
     "spine",
@@ -25,9 +25,9 @@
   "author": "doublerebel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doublerebel/spine-couch/issues"
+    "url": "https://github.com/nextorigin/spine-couch/issues"
   },
-  "homepage": "https://github.com/doublerebel/spine-couch#readme",
+  "homepage": "https://github.com/nextorigin/spine-couch#readme",
   "dependencies": {
     "cradle": "^0.7.1",
     "errify": "^1.0.0",

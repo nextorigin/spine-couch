@@ -28,7 +28,8 @@ class Couch extends Spine.Model
     docs = (@parseRow row for row in rows)
     @refresh docs
 
-  @find: (id, cb = ->) ->
+  @find: (id, cb) ->
+    return @findCached id unless cb
     ideally = errify cb
 
     await @db.get id, ideally defer records
@@ -83,7 +84,7 @@ class Couch extends Spine.Model
       await @constructor.db.merge id, changed, ideally defer result
 
     super()
-    cb null, this
+    cb null, @reload()
 
   remove: (cb = ->) ->
     ideally = errify cb

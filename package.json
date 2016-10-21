@@ -33,7 +33,7 @@
     "errify": "^1.0.0",
     "iced-runtime": "^1.0.3",
     "spine": "^1.6.2",
-    "spine-relations": "^1.0.5"
+    "spine-relations": "^1.0.7"
   },
   "devDependencies": {
     "iced-coffee-script": "^108.0.11"

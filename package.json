@@ -1,6 +1,6 @@
 {
   "name": "spine-couch",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "CouchDB adapter for Spine models running in NodeJS",
   "main": "spine-couch.js",
   "scripts": {
